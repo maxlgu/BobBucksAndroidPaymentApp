@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="method_names">
-        <item>https://bobpay.xyz/pay</item>
-        <item>basic-card</item>
+        <item>https://bobbucks.dev/pay/manifest.json</item>
     </string-array>
 </resources>

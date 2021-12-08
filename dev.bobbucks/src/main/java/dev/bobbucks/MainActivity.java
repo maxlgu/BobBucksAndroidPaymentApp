@@ -1,7 +1,9 @@
-package com.bobpay;
+package dev.bobbucks;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+
+import dev.bobbucks.R;
 
 public class MainActivity extends AppCompatActivity {
 

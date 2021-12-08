@@ -1,4 +1,4 @@
-package com.bobpay;
+package dev.bobbucks;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -8,6 +8,9 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import dev.bobbucks.R;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -89,7 +92,7 @@ public class PaymentActivity extends AppCompatActivity implements View.OnClickLi
         Intent result = new Intent();
         if (!mError) {
             Bundle extras = new Bundle();
-            extras.putString("methodName", "https://bobpay.xyz/pay");
+            extras.putString("methodName", "https://bobbucks.dev/pay");
             extras.putString("instrumentDetails", "{\"token\": \"put-some-data-here\"}");
             result.putExtras(extras);
         }

@@ -1,4 +1,4 @@
-package com.bobpay;
+package dev.bobbucks;
 
 import android.app.Service;
 import android.content.Intent;

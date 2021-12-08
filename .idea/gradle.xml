@@ -10,7 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/com.bobpay" />
+            <option value="$PROJECT_DIR$/dev.bobbucks" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

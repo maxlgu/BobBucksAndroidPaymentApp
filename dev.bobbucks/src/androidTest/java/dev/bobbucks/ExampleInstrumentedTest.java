@@ -1,4 +1,4 @@
-package com.bobpay;
+package dev.bobbucks;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.bobpay", appContext.getPackageName());
+        assertEquals("dev.bobbucks", appContext.getPackageName());
     }
 }

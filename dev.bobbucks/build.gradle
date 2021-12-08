@@ -4,12 +4,18 @@ android {
     compileSdkVersion 30
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "com.bobpay"
+        applicationId "dev.bobbucks"
         minSdkVersion 14
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    signingConfigs {
+        release {
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
     }
     buildTypes {
         release {

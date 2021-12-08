@@ -1,4 +1,4 @@
-package com.bobpay;
+package dev.bobbucks;
 
 import org.junit.Test;
 
