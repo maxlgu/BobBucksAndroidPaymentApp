@@ -19,7 +19,7 @@
                 <action android:name="org.chromium.intent.action.PAY" />
             </intent-filter>
             <meta-data android:name="org.chromium.default_payment_method_name"
-                android:value="https://bobbucks.dev/pay/manifest.json" />
+                android:value="https://bobbucks.dev/pay" />
             <meta-data android:name="org.chromium.payment_method_names"
                 android:resource="@array/method_names" />
         </activity>
